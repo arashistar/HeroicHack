@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16A5544217BD0840003C1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5543217BD0840003C1B7 /* AppDelegate.swift */; };
+		F16A5546217BD0840003C1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5545217BD0840003C1B7 /* ViewController.swift */; };
+		F16A5549217BD0840003C1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16A5547217BD0840003C1B7 /* Main.storyboard */; };
+		F16A554B217BD0870003C1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16A554A217BD0870003C1B7 /* Assets.xcassets */; };
+		F16A554E217BD0870003C1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16A554C217BD0870003C1B7 /* LaunchScreen.storyboard */; };
+		F16A5559217BD0870003C1B7 /* Heroic_HackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5558217BD0870003C1B7 /* Heroic_HackTests.swift */; };
+		F16A5564217BD0870003C1B7 /* Heroic_HackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5563217BD0870003C1B7 /* Heroic_HackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16A5555217BD0870003C1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16A5538217BD0840003C1B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16A553F217BD0840003C1B7;
+			remoteInfo = "Heroic Hack";
+		};
+		F16A5560217BD0870003C1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16A5538217BD0840003C1B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16A553F217BD0840003C1B7;
+			remoteInfo = "Heroic Hack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F16A5540217BD0840003C1B7 /* Heroic Hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heroic Hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16A5543217BD0840003C1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F16A5545217BD0840003C1B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F16A5548217BD0840003C1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16A554A217BD0870003C1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16A554D217BD0870003C1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16A554F217BD0870003C1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16A5554217BD0870003C1B7 /* Heroic HackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heroic HackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16A5558217BD0870003C1B7 /* Heroic_HackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroic_HackTests.swift; sourceTree = "<group>"; };
+		F16A555A217BD0870003C1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16A555F217BD0870003C1B7 /* Heroic HackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heroic HackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16A5563217BD0870003C1B7 /* Heroic_HackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroic_HackUITests.swift; sourceTree = "<group>"; };
+		F16A5565217BD0870003C1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16A553D217BD0840003C1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A5551217BD0870003C1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A555C217BD0870003C1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16A5537217BD0840003C1B7 = {
+			isa = PBXGroup;
+			children = (
+				F16A5542217BD0840003C1B7 /* Heroic Hack */,
+				F16A5557217BD0870003C1B7 /* Heroic HackTests */,
+				F16A5562217BD0870003C1B7 /* Heroic HackUITests */,
+				F16A5541217BD0840003C1B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16A5541217BD0840003C1B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16A5540217BD0840003C1B7 /* Heroic Hack.app */,
+				F16A5554217BD0870003C1B7 /* Heroic HackTests.xctest */,
+				F16A555F217BD0870003C1B7 /* Heroic HackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16A5542217BD0840003C1B7 /* Heroic Hack */ = {
+			isa = PBXGroup;
+			children = (
+				F16A5543217BD0840003C1B7 /* AppDelegate.swift */,
+				F16A5545217BD0840003C1B7 /* ViewController.swift */,
+				F16A5547217BD0840003C1B7 /* Main.storyboard */,
+				F16A554A217BD0870003C1B7 /* Assets.xcassets */,
+				F16A554C217BD0870003C1B7 /* LaunchScreen.storyboard */,
+				F16A554F217BD0870003C1B7 /* Info.plist */,
+			);
+			path = "Heroic Hack";
+			sourceTree = "<group>";
+		};
+		F16A5557217BD0870003C1B7 /* Heroic HackTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16A5558217BD0870003C1B7 /* Heroic_HackTests.swift */,
+				F16A555A217BD0870003C1B7 /* Info.plist */,
+			);
+			path = "Heroic HackTests";
+			sourceTree = "<group>";
+		};
+		F16A5562217BD0870003C1B7 /* Heroic HackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F16A5563217BD0870003C1B7 /* Heroic_HackUITests.swift */,
+				F16A5565217BD0870003C1B7 /* Info.plist */,
+			);
+			path = "Heroic HackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16A553F217BD0840003C1B7 /* Heroic Hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16A5568217BD0870003C1B7 /* Build configuration list for PBXNativeTarget "Heroic Hack" */;
+			buildPhases = (
+				F16A553C217BD0840003C1B7 /* Sources */,
+				F16A553D217BD0840003C1B7 /* Frameworks */,
+				F16A553E217BD0840003C1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heroic Hack";
+			productName = "Heroic Hack";
+			productReference = F16A5540217BD0840003C1B7 /* Heroic Hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16A5553217BD0870003C1B7 /* Heroic HackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16A556B217BD0870003C1B7 /* Build configuration list for PBXNativeTarget "Heroic HackTests" */;
+			buildPhases = (
+				F16A5550217BD0870003C1B7 /* Sources */,
+				F16A5551217BD0870003C1B7 /* Frameworks */,
+				F16A5552217BD0870003C1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16A5556217BD0870003C1B7 /* PBXTargetDependency */,
+			);
+			name = "Heroic HackTests";
+			productName = "Heroic HackTests";
+			productReference = F16A5554217BD0870003C1B7 /* Heroic HackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F16A555E217BD0870003C1B7 /* Heroic HackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16A556E217BD0870003C1B7 /* Build configuration list for PBXNativeTarget "Heroic HackUITests" */;
+			buildPhases = (
+				F16A555B217BD0870003C1B7 /* Sources */,
+				F16A555C217BD0870003C1B7 /* Frameworks */,
+				F16A555D217BD0870003C1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16A5561217BD0870003C1B7 /* PBXTargetDependency */,
+			);
+			name = "Heroic HackUITests";
+			productName = "Heroic HackUITests";
+			productReference = F16A555F217BD0870003C1B7 /* Heroic HackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16A5538217BD0840003C1B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Courtney Storm";
+				TargetAttributes = {
+					F16A553F217BD0840003C1B7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F16A5553217BD0870003C1B7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F16A553F217BD0840003C1B7;
+					};
+					F16A555E217BD0870003C1B7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F16A553F217BD0840003C1B7;
+					};
+				};
+			};
+			buildConfigurationList = F16A553B217BD0840003C1B7 /* Build configuration list for PBXProject "Heroic Hack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16A5537217BD0840003C1B7;
+			productRefGroup = F16A5541217BD0840003C1B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16A553F217BD0840003C1B7 /* Heroic Hack */,
+				F16A5553217BD0870003C1B7 /* Heroic HackTests */,
+				F16A555E217BD0870003C1B7 /* Heroic HackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16A553E217BD0840003C1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A554E217BD0870003C1B7 /* LaunchScreen.storyboard in Resources */,
+				F16A554B217BD0870003C1B7 /* Assets.xcassets in Resources */,
+				F16A5549217BD0840003C1B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A5552217BD0870003C1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A555D217BD0870003C1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16A553C217BD0840003C1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A5546217BD0840003C1B7 /* ViewController.swift in Sources */,
+				F16A5544217BD0840003C1B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A5550217BD0870003C1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A5559217BD0870003C1B7 /* Heroic_HackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A555B217BD0870003C1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A5564217BD0870003C1B7 /* Heroic_HackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16A5556217BD0870003C1B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16A553F217BD0840003C1B7 /* Heroic Hack */;
+			targetProxy = F16A5555217BD0870003C1B7 /* PBXContainerItemProxy */;
+		};
+		F16A5561217BD0870003C1B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16A553F217BD0840003C1B7 /* Heroic Hack */;
+			targetProxy = F16A5560217BD0870003C1B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F16A5547217BD0840003C1B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16A5548217BD0840003C1B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16A554C217BD0870003C1B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16A554D217BD0870003C1B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16A5566217BD0870003C1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F16A5567217BD0870003C1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16A5569217BD0870003C1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Heroic Hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Heroic-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16A556A217BD0870003C1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Heroic Hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Heroic-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F16A556C217BD0870003C1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Heroic HackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Heroic-HackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroic Hack.app/Heroic Hack";
+			};
+			name = Debug;
+		};
+		F16A556D217BD0870003C1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Heroic HackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Heroic-HackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heroic Hack.app/Heroic Hack";
+			};
+			name = Release;
+		};
+		F16A556F217BD0870003C1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Heroic HackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Heroic-HackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heroic Hack";
+			};
+			name = Debug;
+		};
+		F16A5570217BD0870003C1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Heroic HackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GT.Heroic-HackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heroic Hack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16A553B217BD0840003C1B7 /* Build configuration list for PBXProject "Heroic Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16A5566217BD0870003C1B7 /* Debug */,
+				F16A5567217BD0870003C1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16A5568217BD0870003C1B7 /* Build configuration list for PBXNativeTarget "Heroic Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16A5569217BD0870003C1B7 /* Debug */,
+				F16A556A217BD0870003C1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16A556B217BD0870003C1B7 /* Build configuration list for PBXNativeTarget "Heroic HackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16A556C217BD0870003C1B7 /* Debug */,
+				F16A556D217BD0870003C1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16A556E217BD0870003C1B7 /* Build configuration list for PBXNativeTarget "Heroic HackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16A556F217BD0870003C1B7 /* Debug */,
+				F16A5570217BD0870003C1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16A5538217BD0840003C1B7 /* Project object */;
+}
