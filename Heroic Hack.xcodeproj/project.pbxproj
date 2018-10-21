@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F16A5544217BD0840003C1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5543217BD0840003C1B7 /* AppDelegate.swift */; };
-		F16A5546217BD0840003C1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5545217BD0840003C1B7 /* ViewController.swift */; };
 		F16A5549217BD0840003C1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16A5547217BD0840003C1B7 /* Main.storyboard */; };
 		F16A554B217BD0870003C1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16A554A217BD0870003C1B7 /* Assets.xcassets */; };
 		F16A554E217BD0870003C1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16A554C217BD0870003C1B7 /* LaunchScreen.storyboard */; };
 		F16A5559217BD0870003C1B7 /* Heroic_HackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5558217BD0870003C1B7 /* Heroic_HackTests.swift */; };
 		F16A5564217BD0870003C1B7 /* Heroic_HackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5563217BD0870003C1B7 /* Heroic_HackUITests.swift */; };
+		F16A5574217BEF0E0003C1B7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5573217BEF0E0003C1B7 /* CameraViewController.swift */; };
+		F16A5576217BF3E70003C1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5575217BF3E70003C1B7 /* ViewController.swift */; };
+		F16A5578217BF4CA0003C1B7 /* ReadyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5577217BF4CA0003C1B7 /* ReadyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		F16A5540217BD0840003C1B7 /* Heroic Hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heroic Hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16A5543217BD0840003C1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F16A5545217BD0840003C1B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F16A5548217BD0840003C1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F16A554A217BD0870003C1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16A554D217BD0870003C1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		F16A555F217BD0870003C1B7 /* Heroic HackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heroic HackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16A5563217BD0870003C1B7 /* Heroic_HackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroic_HackUITests.swift; sourceTree = "<group>"; };
 		F16A5565217BD0870003C1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16A5573217BEF0E0003C1B7 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F16A5575217BF3E70003C1B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F16A5577217BF4CA0003C1B7 /* ReadyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				F16A5543217BD0840003C1B7 /* AppDelegate.swift */,
-				F16A5545217BD0840003C1B7 /* ViewController.swift */,
+				F16A5573217BEF0E0003C1B7 /* CameraViewController.swift */,
 				F16A5547217BD0840003C1B7 /* Main.storyboard */,
+				F16A5577217BF4CA0003C1B7 /* ReadyController.swift */,
+				F16A5575217BF3E70003C1B7 /* ViewController.swift */,
 				F16A554A217BD0870003C1B7 /* Assets.xcassets */,
 				F16A554C217BD0870003C1B7 /* LaunchScreen.storyboard */,
 				F16A554F217BD0870003C1B7 /* Info.plist */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16A5546217BD0840003C1B7 /* ViewController.swift in Sources */,
+				F16A5576217BF3E70003C1B7 /* ViewController.swift in Sources */,
+				F16A5578217BF4CA0003C1B7 /* ReadyController.swift in Sources */,
 				F16A5544217BD0840003C1B7 /* AppDelegate.swift in Sources */,
+				F16A5574217BEF0E0003C1B7 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

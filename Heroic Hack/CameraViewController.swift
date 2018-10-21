@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CameraViewController.swift
 //  Heroic Hack
 //
 //  Created by Courtney Storm on 10/20/18.
@@ -8,15 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CameraViewController: UIViewController {
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+        
+        
     
-
     /*
     // MARK: - Navigation
 
