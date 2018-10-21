@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -143,7 +144,7 @@
                                 <rect key="frame" x="70" y="606" width="274" height="30"/>
                                 <state key="normal" title="Ready!"/>
                                 <connections>
-                                    <action selector="chooseImage:" destination="iAn-3d-JWb" eventType="touchUpInside" id="IzO-dA-oNQ"/>
+                                    <segue destination="9bX-Dq-Waq" kind="show" id="F6M-ot-aEg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -164,11 +165,10 @@
             </objects>
             <point key="canvasLocation" x="1698.5507246376812" y="133.69565217391306"/>
         </scene>
-        <!--Ready Controller-->
+        <!--Choose Photo View Controller-->
         <scene sceneID="7EM-Oc-zQi">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzz-20-Z36" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="9bX-Dq-Waq" customClass="ReadyController" customModule="Heroic_Hack" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9bX-Dq-Waq" customClass="ChoosePhotoViewController" customModule="Heroic_Hack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lac-3m-rz3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,24 +189,22 @@
                                 <rect key="frame" x="27" y="108" width="361" height="547"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhQ-pJ-Kqr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhQ-pJ-Kqr">
                                 <rect key="frame" x="30" y="677" width="128" height="30"/>
                                 <state key="normal" title="Take a new picture"/>
                                 <connections>
-                                    <action selector="CameraAction:" destination="9bX-Dq-Waq" eventType="touchUpInside" id="FaH-Yo-kHm"/>
+                                    <action selector="chooseImage:" destination="9bX-Dq-Waq" eventType="touchUpInside" id="Cd6-qR-ghV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c66-ua-mm1">
                                 <rect key="frame" x="243" y="677" width="141" height="30"/>
                                 <state key="normal" title="Select a past picture"/>
-                                <connections>
-                                    <action selector="PhotoLibraryAction:" destination="9bX-Dq-Waq" eventType="touchUpInside" id="DvW-Vu-SIL"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Fcw-BZ-l0n" firstAttribute="top" secondItem="hUV-BV-WDt" secondAttribute="top" constant="50" id="0yc-sk-c4R"/>
+                            <constraint firstItem="hUV-BV-WDt" firstAttribute="bottom" secondItem="DhQ-pJ-Kqr" secondAttribute="bottom" constant="29" id="Bx2-ls-WBY"/>
                             <constraint firstItem="Fcw-BZ-l0n" firstAttribute="leading" secondItem="hUV-BV-WDt" secondAttribute="leading" constant="70" id="DEy-kz-ye5"/>
                             <constraint firstItem="hUV-BV-WDt" firstAttribute="trailing" secondItem="c66-ua-mm1" secondAttribute="trailing" constant="30" id="LK2-Lp-Sut"/>
                             <constraint firstItem="hUV-BV-WDt" firstAttribute="trailing" secondItem="Fcw-BZ-l0n" secondAttribute="trailing" constant="70" id="T7v-sW-9kf"/>
@@ -216,13 +214,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="E28-92-lE6"/>
                     <connections>
-                        <outlet property="Camera" destination="DhQ-pJ-Kqr" id="L1g-v3-w0n"/>
-                        <outlet property="PhotoLibrary" destination="c66-ua-mm1" id="m6k-DU-ItN"/>
-                        <outlet property="imageView" destination="1zL-BL-7nU" id="nDD-n6-onI"/>
+                        <outlet property="imageView" destination="1zL-BL-7nU" id="tfD-t9-pgd"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzz-20-Z36" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2347.826086956522" y="133.69565217391306"/>
+            <point key="canvasLocation" x="2497" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MRA-Ry-3gs">

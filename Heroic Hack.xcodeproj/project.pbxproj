@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F77480E217C23620045111B /* ChoosePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77480D217C23620045111B /* ChoosePhotoViewController.swift */; };
 		F16A5544217BD0840003C1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16A5543217BD0840003C1B7 /* AppDelegate.swift */; };
 		F16A5549217BD0840003C1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16A5547217BD0840003C1B7 /* Main.storyboard */; };
 		F16A554B217BD0870003C1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16A554A217BD0870003C1B7 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F77480D217C23620045111B /* ChoosePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePhotoViewController.swift; sourceTree = "<group>"; };
 		F16A5540217BD0840003C1B7 /* Heroic Hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heroic Hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16A5543217BD0840003C1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F16A5548217BD0840003C1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				F16A5573217BEF0E0003C1B7 /* CameraViewController.swift */,
 				F16A5547217BD0840003C1B7 /* Main.storyboard */,
 				F16A5577217BF4CA0003C1B7 /* ReadyController.swift */,
+				4F77480D217C23620045111B /* ChoosePhotoViewController.swift */,
 				F16A5575217BF3E70003C1B7 /* ViewController.swift */,
 				F16A554A217BD0870003C1B7 /* Assets.xcassets */,
 				F16A554C217BD0870003C1B7 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F77480E217C23620045111B /* ChoosePhotoViewController.swift in Sources */,
 				F16A5576217BF3E70003C1B7 /* ViewController.swift in Sources */,
 				F16A5578217BF4CA0003C1B7 /* ReadyController.swift in Sources */,
 				F16A5544217BD0840003C1B7 /* AppDelegate.swift in Sources */,
@@ -441,7 +445,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
 				INFOPLIST_FILE = "Heroic Hack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
 				INFOPLIST_FILE = "Heroic Hack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
